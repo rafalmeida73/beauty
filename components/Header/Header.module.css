@@ -1,3 +1,7 @@
 .header nav {
   background-color: var(--primary);
 }
+
+.header img:hover{
+  cursor: pointer;
+}
