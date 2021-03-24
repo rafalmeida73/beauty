@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import Header from '../components/Header';
-import FooterContent from '../components/Footer';
-import styles from '../styles/NovoPost.module.css';
+import Header from '../../components/Header';
+import FooterContent from '../../components/Footer';
+import styles from '../styles/EditarPost.module.css';
 import Image from 'next/image';
 import { TextInput, Button, Icon, Textarea } from 'react-materialize';
 
-function novoPost() {
+function editarPost() {
  const [loading, setLoading] = useState(false);
  const [imageType, setImageType] = useState(false);
  const [img, setImg] = useState(null);
@@ -17,7 +17,7 @@ function novoPost() {
  return (
   <>
    <Header />
-   <main className={styles.new}>
+   <main className={styles.edit}>
     <div className="container">
      {/* {imageType && (
                               <Alert variant="filled" severity="error">
@@ -30,14 +30,14 @@ function novoPost() {
                               </Alert>
                          )} */}
      <form>
-      <div class="file-field input-field center-align" accept="image/png, image/jpeg, image/jpg">
+      <div class="file-field input-field" accept="image/png, image/jpeg, image/jpg">
        <input type="file" />
        <div class="file-path-wrapper">
         <Image
-         src="/upload.png"
+         src="/avatar.svg"
          alt="olhos"
-         width={250}
-         height={250}
+         width={70}
+         height={70}
          alt="Ilustração de um olho com sobrancelha"
         />
        </div>
@@ -97,4 +97,4 @@ function novoPost() {
  )
 }
 
-export default novoPost;
+export default editarPost;

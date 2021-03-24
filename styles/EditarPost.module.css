@@ -1,0 +1,39 @@
+.edit{
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.edit .file-path-wrapper{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.edit .input-field img{
+ height: 250px;
+ border-radius: 10px;
+}
+
+.buttons{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50px;
+}
+
+.buttons button{
+ width: 100%;
+ background-color: var(--primary);
+}
+
+.buttons button:focus, .edit .buttons button:hover{
+ background-color: var(--primary-dark);
+}
+
+.edit .circle {
+ display: flex;
+ justify-content: center;
+}

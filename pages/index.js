@@ -67,7 +67,6 @@ export default function Home() {
               <div className={styles.descBenefit}>
                 <Image
                   src="/olhos.svg"
-                  alt="olhos"
                   width={150}
                   height={150}
                   alt="Ilustração de um olho com sobrancelha"
@@ -89,7 +88,6 @@ export default function Home() {
               <div className={styles.descBenefit}>
                 <Image
                   src="/olhos2.svg"
-                  alt="olhos"
                   width={150}
                   height={150}
                   alt="Ilustração de um olho com sobrancelha"
@@ -111,7 +109,6 @@ export default function Home() {
               <div className={styles.descBenefit}>
                 <Image
                   src="/olhos.svg"
-                  alt="olhos"
                   width={150}
                   height={150}
                   alt="Ilustração de um olho com sobrancelha"
@@ -140,7 +137,6 @@ export default function Home() {
             handle={
               <Image
                 src="/flower.svg"
-                alt="Picture of the author"
                 width={120}
                 height={120}
                 alt="Flor roxa"
@@ -178,7 +174,6 @@ export default function Home() {
             <div>
               <Image
                 src="/avatar.svg"
-                alt="Julia"
                 width={120}
                 height={120}
                 alt="Imagem de perfil do usuário que fez o comentário."
@@ -194,7 +189,6 @@ export default function Home() {
             <div>
               <Image
                 src="/avatar.svg"
-                alt="Julia"
                 width={120}
                 height={120}
                 alt="Imagem de perfil do usuário que fez o comentário."
@@ -210,7 +204,6 @@ export default function Home() {
             <div>
               <Image
                 src="/avatar.svg"
-                alt="Julia"
                 width={120}
                 height={120}
                 alt="Imagem de perfil do usuário que fez o comentário."
