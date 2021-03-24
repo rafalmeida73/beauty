@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header';
 import FooterContent from '../components/Footer';
@@ -9,6 +8,7 @@ import animationData from '../public/girls-face.json';
 import { motion } from "framer-motion";
 import ReactCompareImage from 'react-compare-image';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -23,12 +23,6 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Estética</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-      </Head>
-
       <div>
         <Header />
       </div>
@@ -42,20 +36,22 @@ export default function Home() {
           </div>
 
           <div className="col s12 m6 l6">
-            <h1>Estética</h1>
+            <h1>Estética Rhoades</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
+            <Link href="/sobre">
 
-            <Button
-              node="button"
-              waves="light"
-            >
-              Entrar em contato
+              <Button
+                node="button"
+                waves="light"
+              >
+                Entrar em contato
             <Icon left>
-                email
+                  add
              </Icon>
-            </Button>
+              </Button>
+            </Link>
           </div>
         </Row>
       </main>
@@ -74,6 +70,7 @@ export default function Home() {
                   alt="olhos"
                   width={150}
                   height={150}
+                  alt="Ilustração de um olho com sobrancelha"
                 />
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -95,6 +92,7 @@ export default function Home() {
                   alt="olhos"
                   width={150}
                   height={150}
+                  alt="Ilustração de um olho com sobrancelha"
                 />
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -116,6 +114,7 @@ export default function Home() {
                   alt="olhos"
                   width={150}
                   height={150}
+                  alt="Ilustração de um olho com sobrancelha"
                 />
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -144,6 +143,7 @@ export default function Home() {
                 alt="Picture of the author"
                 width={120}
                 height={120}
+                alt="Flor roxa"
               />
             }
           />
@@ -165,6 +165,7 @@ export default function Home() {
                 alt="Julia"
                 width={120}
                 height={120}
+                alt="Imagem de perfil do usuário que fez o comentário."
               />
             </div>
             <h4>Julia</h4>
@@ -180,6 +181,7 @@ export default function Home() {
                 alt="Julia"
                 width={120}
                 height={120}
+                alt="Imagem de perfil do usuário que fez o comentário."
               />
             </div>
             <h4>Julia</h4>
@@ -195,6 +197,7 @@ export default function Home() {
                 alt="Julia"
                 width={120}
                 height={120}
+                alt="Imagem de perfil do usuário que fez o comentário."
               />
             </div>
             <h4>Julia</h4>
@@ -210,6 +213,7 @@ export default function Home() {
                 alt="Julia"
                 width={120}
                 height={120}
+                alt="Imagem de perfil do usuário que fez o comentário."
               />
             </div>
             <h4>Julia</h4>

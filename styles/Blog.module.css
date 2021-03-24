@@ -1,0 +1,16 @@
+.blog {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog .logo {
+  display: flex;
+  justify-content: center;
+}
+
+.cardData {
+  width: 100% !important;
+}

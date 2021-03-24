@@ -89,6 +89,8 @@
 
 .comment p {
   margin-bottom: 30px;
+  height: 70px;
+  max-height: 70px;
 }
 
 @media (min-width: 768px) {

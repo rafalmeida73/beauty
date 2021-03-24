@@ -7,7 +7,7 @@ function FooterContent() {
   return (
     <Footer
       className={styles.footer}
-      copyrights="© 2021 Copyright Text"
+      copyrights="© 2021 Copyright Estética Rhoades"
       links={
         <ul>
           <li>
@@ -20,16 +20,27 @@ function FooterContent() {
               <a className="grey-text text-lighten-3">Sobre</a>
             </Link>
           </li>
+          <li>
+            <Link href="/blog">
+              <a className="grey-text text-lighten-3">Blog</a>
+            </Link>
+          </li>
         </ul>
       }
-      moreLinks={<a className="grey-text text-lighten-4 right" href="#!">More Links</a>}
+      moreLinks={
+        <a
+          className="grey-text text-lighten-4 right"
+          href="https://github.com/rafalmeida73/estetica"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Linkedin Rafael Santana"
+        >
+          Repositório no GitHub
+        </a>}
     >
       <h5 className="white-text">
-      Estética
-  </h5>
-      <p className="grey-text text-lighten-4">
-        You can use rows and columns here to organize your footer content.
-  </p>
+        Estética Rhoades
+      </h5>
     </Footer>
   )
 };

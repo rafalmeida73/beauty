@@ -24,6 +24,7 @@ function Header() {
               alt="Estética"
               width={200}
               height={60}
+              alt="Uma flor roxa e ao lado escrito Estética Rhoades"
             />
           </Link>
         }
@@ -46,6 +47,9 @@ function Header() {
         </Link>
         <Link href="/sobre">
           <a>Sobre</a>
+        </Link>
+        <Link href="/blog">
+          <a>Blog</a>
         </Link>
       </Navbar>
     </header>
