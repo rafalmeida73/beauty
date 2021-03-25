@@ -35,7 +35,7 @@ function FooterContent() {
       moreLinks={
         <a
           className="grey-text text-lighten-4 right"
-          href="https://github.com/rafalmeida73/estetica"
+          href="https://github.com/rafalmeida73/beauty"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Linkedin Rafael Santana"

@@ -156,62 +156,92 @@ export default function Home() {
           <div className={styles.comment}>
             <div>
               <Image
-                src="/avatar.svg"
-                alt="Julia"
+                src="/mosias.png"
                 width={120}
                 height={120}
                 alt="Imagem de perfil do usuário que fez o comentário."
               />
             </div>
-            <h4>Julia</h4>
+            <h4>Pablo Escobar</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Você aceita ¿Plata ou plomo?
               </p>
           </div>
 
           <div className={styles.comment}>
             <div>
               <Image
-                src="/avatar.svg"
+                src="/tiringa.jpg"
                 width={120}
                 height={120}
                 alt="Imagem de perfil do usuário que fez o comentário."
               />
             </div>
-            <h4>Julia</h4>
+            <h4>Tiringa</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Cuma é a historia?
+            </p>
+          </div>
+
+          <div className={styles.comment}>
+            <div>
+              <Image
+                src="/claudio.png"
+                width={120}
+                height={120}
+                alt="Imagem de perfil do usuário que fez o comentário."
+              />
+            </div>
+            <h4>Claudio Luã</h4>
+            <p>
+              A melhor esteticista de SP!
+            </p>
+          </div>
+
+
+          <div className={styles.comment}>
+            <div>
+              <Image
+                src="/thiago.png"
+                width={120}
+                height={120}
+                alt="Imagem de perfil do usuário que fez o comentário."
+              />
+            </div>
+            <h4>Thiago Henrique</h4>
+            <p>
+              Preço muito alto!
               </p>
           </div>
 
           <div className={styles.comment}>
             <div>
               <Image
-                src="/avatar.svg"
+                src="/rafael.jpg"
                 width={120}
                 height={120}
                 alt="Imagem de perfil do usuário que fez o comentário."
               />
             </div>
-            <h4>Julia</h4>
+            <h4>Rafael Santana</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </p>
+              Esteticista braba!
+            </p>
           </div>
 
           <div className={styles.comment}>
             <div>
               <Image
-                src="/avatar.svg"
+                src="/rica.png"
                 width={120}
                 height={120}
                 alt="Imagem de perfil do usuário que fez o comentário."
               />
             </div>
-            <h4>Julia</h4>
+            <h4>Ricardo Silva</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </p>
+              Xbox!
+            </p>
           </div>
 
         </Carousel>
