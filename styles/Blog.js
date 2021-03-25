@@ -4,6 +4,7 @@ export const Card = styled.div`
   .card-action {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 span{
