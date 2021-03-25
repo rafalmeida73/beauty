@@ -18,9 +18,9 @@ class Firebase {
   constructor() {
     if (!app.apps.length) {
       app.initializeApp(firebaseConfig);
-   }else {
-    app.app(); // if already initialized, use that one
-   }
+    } else {
+      app.app(); // if already initialized, use that one
+    }
     this.app = app.database();
     this.storage = app.storage();
   }
