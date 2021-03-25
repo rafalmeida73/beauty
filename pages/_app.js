@@ -14,14 +14,14 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:url" content="https://estetica-rhoades.vercel.app" />
         <meta property="og:title" content="Estética Rhoades" />
         <meta property="og:description" content="A esteticista que você conhece como a palma da sua mão!" />
-        <meta property="og:image" content="/index.png" />
+        <meta property="og:image" content="https://estetica-rhoades.vercel.app/index.png" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://estetica-rhoades.vercel.app" />
         <meta property="twitter:title" content="Estética Rhoades" />
         <meta property="twitter:description" content="A esteticista que você conhece como a palma da sua mão!" />
-        <meta property="twitter:image" content="/index.png"></meta>
+        <meta property="twitter:image" content="https://estetica-rhoades.vercel.app/index.png"></meta>
       </Head>
       <Component {...pageProps} />
     </>
