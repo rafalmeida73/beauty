@@ -160,7 +160,7 @@ function Sobre() {
         </div>
       </main>
 
-      <Certified>
+      {/* <Certified> */}
         <h2>Certificados</h2>
         <div className="center-align">
           <Carousel breakPoints={breakPoints}>
@@ -200,20 +200,18 @@ function Sobre() {
                 alt="Certificado de curso sobre estética e coméstica."
               />
             </Item>
-
           </Carousel>
-
         </div>
-      </Certified>
+      {/* </Certified> */}
 
       <div className={styles.compare}>
         <h3>Resultados</h3>
         <div className="container">
           <div className={styles.imgsDiv}>
             <ReactCompareImage
-              leftImage="https://www.estudokids.com.br/wp-content/uploads/2020/02/o-que-e-paisagem-1200x675.jpg"
+              leftImage="/before.png"
               leftImageLabel="Antes"
-              rightImage="https://www.infoescola.com/wp-content/uploads/2019/10/paisagem-ouro-preto-1008049370.jpg"
+              rightImage="/after.png"
               rightImageLabel="Depois"
               sliderLineColor="#9E53AB"
               handle={
@@ -230,9 +228,9 @@ function Sobre() {
 
           <div className={styles.imgsDiv}>
             <ReactCompareImage
-              leftImage="https://www.estudokids.com.br/wp-content/uploads/2020/02/o-que-e-paisagem-1200x675.jpg"
+              leftImage="/before.png"
               leftImageLabel="Antes"
-              rightImage="https://www.infoescola.com/wp-content/uploads/2019/10/paisagem-ouro-preto-1008049370.jpg"
+              rightImage="/after.png"
               rightImageLabel="Depois"
               sliderLineColor="#9E53AB"
               handle={
@@ -249,9 +247,9 @@ function Sobre() {
 
           <div className={styles.imgsDiv}>
             <ReactCompareImage
-              leftImage="https://www.estudokids.com.br/wp-content/uploads/2020/02/o-que-e-paisagem-1200x675.jpg"
+              leftImage="/before.png"
               leftImageLabel="Antes"
-              rightImage="https://www.infoescola.com/wp-content/uploads/2019/10/paisagem-ouro-preto-1008049370.jpg"
+              rightImage="/after.png"
               rightImageLabel="Depois"
               sliderLineColor="#9E53AB"
               handle={

@@ -7,9 +7,11 @@ export const Card = styled.div`
 }
 
 span{
-  color: #000 !important;
+  color: #fff !important;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bold !important;
+  -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: var(--primary-dark); /* cor da borda */
 }
 
 a {

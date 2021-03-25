@@ -21,7 +21,6 @@ class Firebase {
    }else {
     app.app(); // if already initialized, use that one
    }
-    console.log(firebaseConfig)
     this.app = app.database();
     this.storage = app.storage();
   }

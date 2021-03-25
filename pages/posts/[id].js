@@ -42,7 +42,7 @@ function Posts() {
     setText(text);
     setLoading(false);
    } else {
-    router.push("/")
+    router.push("/404")
    }
   });
  });

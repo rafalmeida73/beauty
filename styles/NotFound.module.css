@@ -1,0 +1,18 @@
+.notFound {
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.notFound h1 {
+ font-size: 15px;
+ text-align: center;
+ font-weight: bold;
+}
+
+@media (min-width: 768px) {
+ .notFound h1 {
+   font-size: 25px;
+ }
+}

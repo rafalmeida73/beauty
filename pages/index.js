@@ -41,12 +41,11 @@ export default function Home() {
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
             <Link href="/sobre">
-
               <Button
                 node="button"
                 waves="light"
               >
-                Entrar em contato
+                Saber mais
             <Icon left>
                   add
              </Icon>
@@ -126,12 +125,12 @@ export default function Home() {
 
       {/* Compare */}
       <div className={styles.compare}>
-        <h2>Lorem Ipsum</h2>
+        <h2>Um dos nossos resultados</h2>
         <div className="container">
           <ReactCompareImage
-            leftImage="https://www.estudokids.com.br/wp-content/uploads/2020/02/o-que-e-paisagem-1200x675.jpg"
+            leftImage="/before.png"
             leftImageLabel="Antes"
-            rightImage="https://www.infoescola.com/wp-content/uploads/2019/10/paisagem-ouro-preto-1008049370.jpg"
+            rightImage="/after.png"
             rightImageLabel="Depois"
             sliderLineColor="#9E53AB"
             handle={

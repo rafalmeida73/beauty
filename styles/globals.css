@@ -63,3 +63,15 @@ a {
 .input-field .prefix.active {
   color: var(--primary-dark) !important;
 }
+
+.input-field .btn{
+  background-color: var(--primary) !important;
+}
+
+.rtf--mb:focus{
+  background-color: var(--primary) !important;
+}
+
+.rtf--ab__c button:focus{
+  background-color: var(--primary) !important;
+}
