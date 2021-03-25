@@ -146,8 +146,8 @@ function Posts() {
       <div className="container">
        <div className="center-align">
         <Image
-         alt={title}
          src={imagem}
+         alt={`Imagem sobre o post ${title}`}
          width="600"
          height="600"
         />
@@ -179,7 +179,7 @@ function Posts() {
            >
             <Image
              src="/circle.png"
-             alt="olhos"
+             alt="Circulo roxo com a Lana Rhoades dentro."
              width={200}
              height={200}
             />

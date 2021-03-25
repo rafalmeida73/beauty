@@ -2,6 +2,8 @@ import styles from './Footer.module.css';
 import 'materialize-css/dist/css/materialize.min.css';
 import { Footer } from 'react-materialize';
 import Link from 'next/link';
+import IsLogeed from '../isLogged';
+import Store from '../Store'
 
 function FooterContent() {
   return (
@@ -25,6 +27,9 @@ function FooterContent() {
               <a className="grey-text text-lighten-3">Blog</a>
             </Link>
           </li>
+          <Store>
+          <IsLogeed />
+        </Store>
         </ul>
       }
       moreLinks={

@@ -4,6 +4,8 @@ import { Navbar, Icon } from 'react-materialize';
 import $ from 'jquery';
 import Link from 'next/link';
 import Image from 'next/image';
+import IsLogeed from '../isLogged';
+import Store from '../Store'
 
 function Header() {
 
@@ -51,6 +53,11 @@ function Header() {
         <Link href="/blog">
           <a>Blog</a>
         </Link>
+
+        <Store>
+          <IsLogeed />
+        </Store>
+        
       </Navbar>
     </header>
   )

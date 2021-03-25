@@ -152,7 +152,7 @@ function Sobre() {
                   alt="olhos"
                   width={600}
                   height={200}
-                  alt="Imagem da Lana Rhoades tomando um suco"
+                  alt="Imagem da Lana Rhoades tomando um suco."
                 />
               </motion.div>
             </div>

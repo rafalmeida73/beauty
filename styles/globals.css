@@ -75,3 +75,11 @@ a {
 .rtf--ab__c button:focus{
   background-color: var(--primary) !important;
 }
+
+footer a{
+  color: #fff !important;
+}
+
+form .col{
+  width: 100% !important;
+}
