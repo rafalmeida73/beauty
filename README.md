@@ -14,7 +14,7 @@
 * Rafael Santana de Almeida RA: 3119102512
 * Thiago Henrique de Moraes da Silva RA: 919111913
 
-###  Tecnologias utilizadas
+###  Tecnologias utilizadas:
 - Next Js
 - Node JS
 - HTML5
@@ -23,5 +23,11 @@
 - PWA
 - Styled Components
 
-#### Deploy
+#### Provedor de Cloud:
+
+Front-end: [Vercel](https://vercel.com/)
+<br/>
+Back-end: [Firebase](https://firebase.google.com/)
+
+##### Deploy:
 <p align="center">https://estetica-rhoades.vercel.app</p>
