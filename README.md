@@ -23,11 +23,11 @@
 - PWA
 - Styled Components
 
-#### Provedor de Cloud:
+### Provedor de Cloud:
 
 Front-end: [Vercel](https://vercel.com/)
 <br/>
 Back-end: [Firebase](https://firebase.google.com/)
 
-##### Deploy:
+### Deploy:
 <p align="center">https://estetica-rhoades.vercel.app</p>
