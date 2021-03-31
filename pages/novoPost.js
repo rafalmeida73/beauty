@@ -9,7 +9,6 @@ import firebase from '../fireCinnection';
 import fire from 'firebase/app';
 import { useRouter } from 'next/router';
 import Loading from '../components/Loading';
-import Image from 'next/image';
 
 function novoPost() {
      const router = useRouter();
@@ -23,7 +22,6 @@ function novoPost() {
      const [url, setUrl] = useState(null);
      const [error, setError] = useState(false);
 
-
      useEffect(() => {
           fire.auth().onAuthStateChanged(function (user) {
                if (user) {
@@ -34,7 +32,6 @@ function novoPost() {
                }
           });
      });
-
 
      const handleFile = async (e) => {
 
@@ -97,7 +94,6 @@ function novoPost() {
           } else {
                setError(true);
           }
-
      }
 
      return (
