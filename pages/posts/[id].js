@@ -148,8 +148,8 @@ function Posts() {
         <Image
          src={imagem}
          alt={`Imagem sobre o post ${title}`}
-         width="600"
-         height="600"
+         width="500"
+         height="500"
         />
        </div>
        <h1>{title}</h1>

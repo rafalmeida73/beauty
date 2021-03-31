@@ -18,4 +18,8 @@ span{
 a {
   color: var(--primary-dark) !important;
 }
+
+img{
+  border-radius: 130px !important;
+}
 `

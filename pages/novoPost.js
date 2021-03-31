@@ -9,6 +9,7 @@ import firebase from '../fireCinnection';
 import fire from 'firebase/app';
 import { useRouter } from 'next/router';
 import Loading from '../components/Loading';
+import Image from 'next/image';
 
 function novoPost() {
      const router = useRouter();
@@ -134,7 +135,7 @@ function novoPost() {
                                                             src={url}
                                                             width={250}
                                                             height={250}
-                                                            alt="Ícone de uma nuvem com uma set apara cima."
+                                                            alt="Ícone de uma nuvem com uma seta apara cima."
                                                        />
                                              }
                                         </div>
@@ -180,9 +181,9 @@ function novoPost() {
                                              waves="light"
                                              disabled={loading}
                                         >
-                                             Editar
+                                             Criar
                                              <Icon left>
-                                                  edit
+                                             create
                                              </Icon>
                                         </Button>
                                    </div>

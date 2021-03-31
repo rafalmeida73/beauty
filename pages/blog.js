@@ -10,6 +10,8 @@ import * as S from '../styles/Blog'
 import firebase from '../fireCinnection';
 import fire from 'firebase/app';
 import { Fab, Action } from 'react-tiny-fab';
+import Image from 'next/image';
+
 
 function Blog() {
   const [posts, setPosts] = useState([]);
@@ -73,24 +75,31 @@ function Blog() {
               <S.Card className="col s12 m4 l4" key={key}>
                 <Link href={`/posts/${key}`}>
                   <a title={title}>
-                  <motion.div
-                    animate={{ scale: 0.9 }}
-                    transition={{ duration: 0.5 }}
-                    whileHover={{ scale: 1 }}
-                  >
-                    <Link href={`/posts/${key}`}>
-                      <Card
-                        actions={[
-                          <Link href={`/posts/${key}`}>Saber Mais</Link>
-                        ]}
-                        closeIcon={<Icon>close</Icon>}
-                        header={<CardTitle image={img}>{title}</CardTitle>}
-                        revealIcon={<Icon>more_vert</Icon>}
-                      >
-                        {des}
-                      </Card>
-                    </Link>
-                  </motion.div>
+                    <motion.div
+                      animate={{ scale: 0.9 }}
+                      transition={{ duration: 0.5 }}
+                      whileHover={{ scale: 1 }}
+                    >
+                      <Link href={`/posts/${key}`}>
+                        <div className="card">
+                          <div className="card-image center-align">
+                            <Image
+                              src={img}
+                              width={250}
+                              height={250}
+                              alt={`Imagem sobre ${title}`}
+                            />
+                            <span className="card-title">{title}</span>
+                          </div>
+                          <div className="card-content">
+                            <p>{des}</p>
+                          </div>
+                          <div className="card-action">
+                            <Link href={`/posts/${key}`}>Saber Mais</Link>
+                          </div>
+                        </div>
+                      </Link>
+                    </motion.div>
                   </a>
                 </Link>
               </S.Card>

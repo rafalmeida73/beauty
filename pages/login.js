@@ -16,8 +16,8 @@ function Login() {
   const [wrongPassword, setWrongPassword] = useState(false);
   const [UserNotFound, setUserNotFound] = useState(false);
   const [error, setError] = useState(false);
-  const [email, setEmail] = useState(null);
-  const [password, setPassword] = useState(null);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
   if (typeof window !== 'undefined') {
     window.$ = $;
@@ -36,13 +36,13 @@ function Login() {
 
 
   function handleSubmit(e) {
-    if (email !== null && password !== null) {
+    if (email !== '' && password !== '') {
       setError(false);
       firebase.login(email, password)
         .then((authData) => {
           console.log(authData);
           localStorage.setItem("uid", firebase.getCurrentUid())
-           router.push("/blog");
+          router.push("/blog");
         }).catch((error) => {
           if (error.code === 'auth/wrong-password' || error.code === 'auth/user-not-found') {
             setWrongPassword(true);
@@ -52,8 +52,9 @@ function Login() {
             alert('Erro' + error.code)
           }
         });
+    } else {
+      setError(true);
     }
-    setError(true);
     e.preventDefault()
   }
 
