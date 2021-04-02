@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import Head from 'next/head'
+import NProgress from 'next-nprogress-emotion'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -23,6 +24,12 @@ function MyApp({ Component, pageProps }) {
         <meta property="twitter:description" content="A esteticista que você conhece como a palma da sua mão!" />
         <meta property="twitter:image" content="https://estetica-rhoades.vercel.app/index.png"></meta>
       </Head>
+      <NProgress
+        color="#fff"
+        options={{ trickleSpeed: 50 }}
+        showAfterMs={300}
+        spinner
+      />
       <Component {...pageProps} />
     </>
   )
