@@ -27,9 +27,7 @@
   margin: 40px 0;
 }
 
-.main button:focus,
-.main button:active,
-.main button:hover {
+.main button:focus, .main button:active, .main button:hover {
   background-color: var(--primary-dark);
 }
 
@@ -48,6 +46,14 @@
 .descBenefit p {
   color: #fff;
   text-align: center;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descBenefit li {
+  display: flex;
 }
 
 .square {
@@ -56,15 +62,13 @@
   margin-bottom: 30px;
   height: 100%;
   max-width: 100% !important;
-  background-image: linear-gradient(
-    to bottom,
-    var(--primary),
-    var(--primary-dark)
-  );
+  background-image: linear-gradient( to bottom, var(--primary), var(--primary-dark));
+  color: #fff
 }
 
 .compare h2 {
   margin-bottom: 10vh;
+  font-size: 25px;
 }
 
 .carousel h3 {
@@ -72,7 +76,7 @@
   margin-bottom: 10vh;
 }
 
-.carousel img{
+.carousel img {
   border-radius: 100px;
 }
 
@@ -101,16 +105,17 @@
   .main .animation {
     min-height: auto;
   }
-
   .main {
     min-height: 100vh;
     flex-direction: row;
   }
-  
+  .compare h2 {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 1100px) {
-  .carousel h4{
-  font-size: 30px;
+  .carousel h4 {
+    font-size: 30px;
   }
 }

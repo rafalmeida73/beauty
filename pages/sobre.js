@@ -18,7 +18,6 @@ function Sobre() {
     { width: 1200, itemsToShow: 4 }
   ];
 
-
   return (
     <>
 
@@ -32,7 +31,7 @@ function Sobre() {
           <div className={`col s12 m6 l6 ${styles.desc}`}>
             <h1>Lana Rhoades</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Nascida em 6 de setembro de 1996 Chicago, Lana Rhoades estudou e se formou em Illinois, esteticista desde 2014, é hoje dona de vários salões de estética nacional e internacional, salões localizados em São Paulo, Suzano, Porto Alegre, Chicago, Alabama, El Paso e um inaugurado recente em Columbine. Lana hoje é uma das mais famosas da área da estética. O Salão de Estética Rhoades possui tecnologia e produtos avançados para o cliente receber o melhor atendimento e sair satisfeito e revigorado.
             </p>
             <div className={styles.links}>
               {/* <!-- FACEBOOK --> */}
@@ -161,47 +160,47 @@ function Sobre() {
       </main>
 
       {/* <Certified> */}
-        <h2>Certificados</h2>
-        <div className="center-align">
-          <Carousel breakPoints={breakPoints}>
-            <Item>
-              <Image
-                src="/certificado.jpg"
-                alt="olhos"
-                width={300}
-                height={300}
-                alt="Certificado de curso sobre estética e coméstica."
-              />
-            </Item>
-            <Item>
-              <Image
-                src="/certificado.jpg"
-                alt="olhos"
-                width={300}
-                height={300}
-                alt="Certificado de curso sobre estética e coméstica."
-              />
-            </Item>
-            <Item>
-              <Image
-                src="/certificado.jpg"
-                alt="olhos"
-                width={300}
-                height={300}
-                alt="Certificado de curso sobre estética e coméstica."
-              />
-            </Item>
-            <Item>
-              <Image
-                src="/certificado.jpg"
-                alt="olhos"
-                width={300}
-                height={300}
-                alt="Certificado de curso sobre estética e coméstica."
-              />
-            </Item>
-          </Carousel>
-        </div>
+      <h2>Certificados</h2>
+      <div className="center-align">
+        <Carousel breakPoints={breakPoints}>
+          <Item>
+            <Image
+              src="/certificado.jpg"
+              alt="olhos"
+              width={300}
+              height={300}
+              alt="Certificado de curso sobre estética e coméstica."
+            />
+          </Item>
+          <Item>
+            <Image
+              src="/certificado.jpg"
+              alt="olhos"
+              width={300}
+              height={300}
+              alt="Certificado de curso sobre estética e coméstica."
+            />
+          </Item>
+          <Item>
+            <Image
+              src="/certificado.jpg"
+              alt="olhos"
+              width={300}
+              height={300}
+              alt="Certificado de curso sobre estética e coméstica."
+            />
+          </Item>
+          <Item>
+            <Image
+              src="/certificado.jpg"
+              alt="olhos"
+              width={300}
+              height={300}
+              alt="Certificado de curso sobre estética e coméstica."
+            />
+          </Item>
+        </Carousel>
+      </div>
       {/* </Certified> */}
 
       <div className={styles.compare}>

@@ -38,7 +38,7 @@ export default function Home() {
           <div className="col s12 m6 l6">
             <h1>Estética Rhoades</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Estética é um ramo da filosofia que tem por objetivo o estudo da natureza, da beleza e dos fundamentos da arte. Tem sua origem na palavra grega aisthesis, que significa "apreensão pelos sentidos", "percepção". É sobre a beleza, aparência harmoniosa em suas formas: estética facial, plástica, aspecto físico de alguém.
             </p>
             <Link href="/sobre">
               <Button
@@ -70,9 +70,62 @@ export default function Home() {
                   height={150}
                   alt="Ilustração de um olho com sobrancelha"
                 />
+                <strong>Vantagens da estética</strong>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              </p>
+                  <ul>
+                    <li>
+                      <Image
+                        src="/flower.svg"
+                        alt="Logo"
+                        width="20"
+                        height="20"
+                        alt="Flor roxa"
+                      />
+                      Ameniza rugas e linhas de expressão
+                      </li>
+                    <li>
+                      <Image
+                        src="/flower.svg"
+                        alt="Logo"
+                        width="20"
+                        height="20"
+                        alt="Flor roxa"
+                      />
+                      Deixa a pele mais bonita
+                      </li>
+                    <li>
+                      <Image
+                        src="/flower.svg"
+                        alt="Logo"
+                        width="20"
+                        height="20"
+                        alt="Flor roxa"
+                      />
+                      Melhora o aspecto das manchas
+                      </li>
+                    <li>
+                      <Image
+                        src="/flower.svg"
+                        alt="Logo"
+                        width="20"
+                        height="20"
+                        alt="Flor roxa"
+                      />
+                      Ajuda a elevar a autoestima
+                      </li>
+                    <li>
+                      <Image
+                        src="/flower.svg"
+                        alt="Logo"
+                        width="20"
+                        height="20"
+                        alt="Flor roxa"
+                      />
+                      Ajuda no funcionamento do intestino
+                      </li>
+                  </ul>
+
+                </p>
               </div>
 
             </motion.div>
@@ -91,8 +144,9 @@ export default function Home() {
                   height={150}
                   alt="Ilustração de um olho com sobrancelha"
                 />
+                <strong>Saúde e beleza</strong>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  Os procedimentos estéticos são procurados cada vez mais tanto por mulheres, quanto pelos homens. Afinal, são diversas opções e inovações nessa área que atrai diferentes perfis e atende a necessidades diversas.
               </p>
               </div>
 
@@ -112,9 +166,61 @@ export default function Home() {
                   height={150}
                   alt="Ilustração de um olho com sobrancelha"
                 />
+                <strong>Tipos de tratamentos</strong>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              </p>
+                  <ul>
+                    <li>
+                      <Image
+                        src="/flower.svg"
+                        alt="Logo"
+                        width="20"
+                        height="20"
+                        alt="Flor roxa"
+                      />
+                      Limpeza de pele
+                      </li>
+                    <li>
+                      <Image
+                        src="/flower.svg"
+                        alt="Logo"
+                        width="20"
+                        height="20"
+                        alt="Flor roxa"
+                      />
+                      Peeling de cristal
+                      </li>
+                    <li>
+                      <Image
+                        src="/flower.svg"
+                        alt="Logo"
+                        width="20"
+                        height="20"
+                        alt="Flor roxa"
+                      />
+                      Microagulhamento facial
+                      </li>
+                    <li>
+                      <Image
+                        src="/flower.svg"
+                        alt="Logo"
+                        width="20"
+                        height="20"
+                        alt="Flor roxa"
+                      />
+                      Tratamentos de estrias
+                    </li>
+                    <li>
+                      <Image
+                        src="/flower.svg"
+                        alt="Logo"
+                        width="20"
+                        height="20"
+                        alt="Flor roxa"
+                      />
+                      Depilação a laser
+                      </li>
+                  </ul>
+                </p>
               </div>
 
             </motion.div>
@@ -156,30 +262,15 @@ export default function Home() {
           <div className={styles.comment}>
             <div>
               <Image
-                src="/mosias.png"
+                src="/rafael.jpg"
                 width={120}
                 height={120}
                 alt="Imagem de perfil do usuário que fez o comentário."
               />
             </div>
-            <h4>Pablo Escobar</h4>
+            <h4>Rafael Santana</h4>
             <p>
-              Você aceita ¿Plata ou plomo?
-              </p>
-          </div>
-
-          <div className={styles.comment}>
-            <div>
-              <Image
-                src="/tiringa.jpg"
-                width={120}
-                height={120}
-                alt="Imagem de perfil do usuário que fez o comentário."
-              />
-            </div>
-            <h4>Tiringa</h4>
-            <p>
-              Cuma é a historia?
+              Esteticista braba!
             </p>
           </div>
 
@@ -212,36 +303,6 @@ export default function Home() {
             <p>
               Preço muito alto!
               </p>
-          </div>
-
-          <div className={styles.comment}>
-            <div>
-              <Image
-                src="/rafael.jpg"
-                width={120}
-                height={120}
-                alt="Imagem de perfil do usuário que fez o comentário."
-              />
-            </div>
-            <h4>Rafael Santana</h4>
-            <p>
-              Esteticista braba!
-            </p>
-          </div>
-
-          <div className={styles.comment}>
-            <div>
-              <Image
-                src="/rica.png"
-                width={120}
-                height={120}
-                alt="Imagem de perfil do usuário que fez o comentário."
-              />
-            </div>
-            <h4>Ricardo Silva</h4>
-            <p>
-              Xbox!
-            </p>
           </div>
 
         </Carousel>
