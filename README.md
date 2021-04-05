@@ -4,7 +4,7 @@
 
 ------------
 
-   O projeto descrição
+   O projeto Estética Rhoades é um web site que tem como o objetivo de apresentar um portifólio de uma determindada profissional de estética e um blog para estudante e profissionais da área de estética. Contudo, de uma forma bem simples em que até um entusiasta da área possa entender.
 
 ------------
 
