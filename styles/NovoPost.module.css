@@ -1,4 +1,4 @@
-.new{
+.new {
  min-height: 100vh;
  display: flex;
  justify-content: center;
@@ -6,31 +6,31 @@
  flex-direction: column;
 }
 
-.new .file-path-wrapper{
+.new .file-path-wrapper {
  display: flex;
  justify-content: center;
  align-items: center;
 }
 
-.new  img{
+.new img {
  max-width: 100% !important;
  height: 250px;
  border-radius: 10px;
 }
 
-.buttons{
+.buttons {
  display: flex;
  justify-content: center;
  align-items: center;
  margin-top: 50px;
 }
 
-.buttons button{
+.buttons button {
  width: 100%;
  background-color: var(--primary);
 }
 
-.buttons button:focus, .buttons button:hover{
+.buttons button:focus, .buttons button:hover {
  background-color: var(--primary-dark);
 }
 

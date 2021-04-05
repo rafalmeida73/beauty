@@ -13,13 +13,27 @@ span{
   font-weight: bold !important;
   -webkit-text-stroke-width: 1px; /* largura da borda */
     -webkit-text-stroke-color: var(--primary-dark); /* cor da borda */
+    font-size: 25px
 }
 
 a {
   color: var(--primary-dark) !important;
 }
 
-img{
-  border-radius: 130px !important;
+.card-image div{
+  display: block !important;
 }
+
+@media (min-width: 768px) {
+ span{
+    font-size: 15px !important
+}
+}
+
+@media (min-width: 1100px) {
+  span{
+    font-size: 30px !important
+}
+}
+
 `

@@ -28,8 +28,8 @@ function FooterContent() {
             </Link>
           </li>
           <Store>
-          <IsLogeed />
-        </Store>
+            <IsLogeed />
+          </Store>
         </ul>
       }
       moreLinks={

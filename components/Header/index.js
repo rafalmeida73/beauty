@@ -57,7 +57,7 @@ function Header() {
         <Store>
           <IsLogeed />
         </Store>
-        
+
       </Navbar>
     </header>
   )

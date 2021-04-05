@@ -85,7 +85,7 @@ function Blog() {
                           <div className="card-image center-align">
                             <Image
                               src={img}
-                              width={250}
+                              width={380}
                               height={250}
                               alt={`Imagem sobre ${title}`}
                             />

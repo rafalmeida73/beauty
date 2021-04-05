@@ -1,56 +1,51 @@
 .login .animation {
- min-height: 100vh;
- display: flex;
- justify-content: center;
- align-items: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login {
- display: flex;
- justify-content: center;
- align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login .inputs form {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .login .col {
- width: 100% !important;
+  width: 100% !important;
 }
 
 .login .inputs h1 {
- text-align: center;
- margin: 30px 0 30px 0;
+  text-align: center;
+  margin: 30px 0 30px 0;
 }
 
-.login .errorBlock,
-.login .errorBlock .MuiPaper-root {
- margin-bottom: 10px;
+.login .errorBlock, .login .errorBlock .MuiPaper-root {
+  margin-bottom: 10px;
 }
 
 .login button {
- background-color: var(--primary) !important;
- width: 100%;
- margin-top: 30px;
+  background-color: var(--primary) !important;
+  width: 100%;
+  margin-top: 30px;
 }
 
-.login button:focus, .login button:hover{
- background-color: var(--primary-dark) !important;
+.login button:focus, .login button:hover {
+  background-color: var(--primary-dark) !important;
 }
 
 @media (min-width: 768px) {
- .login .animation {
-   min-height: auto;
- }
-
- .login {
-   min-height: 100vh;
- }
-}
-
-@media (min-width: 1100px) {
+  .login .animation {
+    min-height: auto;
+  }
+  .login {
+    min-height: 100vh;
+  }
 }

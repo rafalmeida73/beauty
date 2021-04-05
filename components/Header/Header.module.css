@@ -2,6 +2,6 @@
   background-color: var(--primary);
 }
 
-.header img:hover{
+.header img:hover {
   cursor: pointer;
 }

@@ -1,4 +1,4 @@
-import { useState,createContext } from 'react'
+import { useState, createContext } from 'react'
 import firebase from 'firebase/app';
 
 export const Context = createContext();
@@ -6,7 +6,7 @@ export const Context = createContext();
 const Store = ({ children }) => {
  const [state, setState] = useState();
 
- firebase.auth().onAuthStateChanged(function(user) {
+ firebase.auth().onAuthStateChanged(function (user) {
   if (user) {
    setState(true);
    // console.log(user);

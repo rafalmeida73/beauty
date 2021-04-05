@@ -1,4 +1,4 @@
-.edit{
+.edit {
  min-height: 100vh;
  display: flex;
  justify-content: center;
@@ -6,30 +6,30 @@
  flex-direction: column;
 }
 
-.edit .file-path-wrapper{
+.edit .file-path-wrapper {
  display: flex;
  justify-content: center;
  align-items: center;
 }
 
-.edit .input-field img{
+.edit .input-field img {
  height: 250px;
  border-radius: 10px;
 }
 
-.buttons{
+.buttons {
  display: flex;
  justify-content: center;
  align-items: center;
  margin-top: 50px;
 }
 
-.buttons button{
+.buttons button {
  width: 100%;
  background-color: var(--primary);
 }
 
-.buttons button:focus, .edit .buttons button:hover{
+.buttons button:focus, .edit .buttons button:hover {
  background-color: var(--primary-dark);
 }
 
