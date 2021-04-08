@@ -61,7 +61,6 @@ export default function Home() {
             <motion.div
               className={styles.square}
               whileHover={{ scale: 0.9 }}
-              whileTap={{ scale: 1.3 }}
             >
               <div className={styles.descBenefit}>
                 <Image
@@ -135,7 +134,6 @@ export default function Home() {
             <motion.div
               className={styles.square}
               whileHover={{ scale: 0.9 }}
-              whileTap={{ scale: 1.3 }}
             >
               <div className={styles.descBenefit}>
                 <Image
@@ -157,7 +155,6 @@ export default function Home() {
             <motion.div
               className={styles.square}
               whileHover={{ scale: 0.9 }}
-              whileTap={{ scale: 1.3 }}
             >
               <div className={styles.descBenefit}>
                 <Image

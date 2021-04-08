@@ -16,7 +16,7 @@ function novoPost() {
      const [loadingPage, setloadingPage] = useState(true);
      const [imageType, setImageType] = useState(false);
      const [des, setDes] = useState(null);
-     const [link, setLink] = useState(null);
+     const [link, setLink] = useState("");
      const [text, setText] = useState(null);
      const [title, setTitle] = useState(null);
      const [url, setUrl] = useState(null);
@@ -157,7 +157,6 @@ function novoPost() {
                                         id="Textarea-12"
                                         label="Texto do post *"
                                         value={text}
-                                        data-length={300}
                                         onChange={e => setText(e.target.value)}
                                         noLayout
                                    />

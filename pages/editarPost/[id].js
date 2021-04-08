@@ -50,7 +50,6 @@ function editarPost() {
      }, []);
 
      const handleFile = async (e) => {
-
           if (e.target.files[0]) {
 
                const image = e.target.files[0];
@@ -59,7 +58,7 @@ function editarPost() {
                     const currentUid = firebase.getCurrentUid();
 
                     const uploadTaks = firebase.storage
-                         .ref(`images/${currentUid}/${image.name} `)
+                         .ref(`images/${currentUid}/${image.name}`)
                          .put(image);
 
                     await uploadTaks.on('state_changed',
@@ -76,7 +75,7 @@ function editarPost() {
                          () => {
                               //sucessO!
                               setLoading(false);
-                              firebase.storage.ref(`images / ${currentUid} `)
+                              firebase.storage.ref(`images/${currentUid}`)
                                    .child(image.name).getDownloadURL()
                                    .then(url => {
                                         setImg(url);
@@ -169,7 +168,6 @@ function editarPost() {
                                         id="Textarea-12"
                                         label="Texto do post *"
                                         value={text}
-                                        data-length={300}
                                         onChange={e => setText(e.target.value)}
                                         noLayout
                                    />

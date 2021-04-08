@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import FooterContent from '../components/Footer';
 import styles from '../styles/Login.module.css';
@@ -10,6 +10,7 @@ import $ from 'jquery';
 import Alert from '@material-ui/lab/Alert';
 import firebase from '../fireCinnection';
 import { useRouter } from 'next/router'
+import fire from 'firebase/app';
 
 function Login() {
   const router = useRouter()
@@ -18,6 +19,16 @@ function Login() {
   const [error, setError] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+  useEffect(() => {
+    fire.auth().onAuthStateChanged(function (user) {
+      if (user) {
+        router.push("/")
+      } else {
+        return null
+      }
+    });
+  }, []);
 
   if (typeof window !== 'undefined') {
     window.$ = $;
