@@ -259,6 +259,21 @@ export default function Home() {
           <div className={styles.comment}>
             <div>
               <Image
+                src="/mosias.png"
+                width={120}
+                height={120}
+                alt="Imagem de perfil do usuário que fez o comentário."
+              />
+            </div>
+            <h4>Mosias Alves</h4>
+            <p>
+              Muito cuidadosa!
+            </p>
+          </div>
+
+          <div className={styles.comment}>
+            <div>
+              <Image
                 src="/rafael.jpg"
                 width={120}
                 height={120}
@@ -267,7 +282,7 @@ export default function Home() {
             </div>
             <h4>Rafael Santana</h4>
             <p>
-              Esteticista braba!
+              Esteticista braba 😎👍!
             </p>
           </div>
 
